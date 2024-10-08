@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de mediciones de ozono y temperatura">
+    <title>MEDICIONES</title>
+    <link rel="stylesheet" href="..\app\css\estilo.css"> <!-- Enlazar con el CSS externo -->
+</head>
+<body>
+    <div class="container">
+        <h1>MEDICIONES</h1>
+        <div class="data-container">
+            <div class="data-item">
+                <h2>Ozono</h2>
+                <p id="ozono-value">Cargando...</p>
+            </div>
+            <div class="data-item">
+                <h2>Temperatura</h2>
+                <p id="temperatura-value">Cargando...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Añadido footer fijo para apariencia completa de landing -->
+    <footer>
+        <p>Datos obtenidos desde el servidor Docker "marieta"</p>
+    </footer>
+
+    <script src="..\app\js\script.js"></script> <!-- Enlazar con el JavaScript para las peticiones -->
+</body>
+</html>
+
